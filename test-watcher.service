@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Test Dizini Izleyici
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/bsm/degisiklikOku.sh
+Restart=always
+
+[Install]
+WantedBy=mutli-user.target
